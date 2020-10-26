@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles/bootstrap-4.5.3-dist/css/bootstrap.min.css"> <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="styles/font_awesome/font-awesome-4.7.0/css/font-awesome.css">      <!-- Font awesome -->
+    <link rel="stylesheet" href="styles/styles.css">                                 <!-- Moje vlastne CSS-->
+
+    <script src="jQuery/jQuery.js"></script>
+    <script src="styles/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <meta charset="UTF-8">
+
+</head>
+
+
+<body>
+<!--    navigation bar    -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html" >
+            <h3>Smart Medic</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="pages/servis.html">Servis </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Smart News</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="pages/about.html">O nás</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Kontakt</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+<!--end of navigation bar -->
+
+<!--carousel slide show -->
+    <div class="row justify-content-center w-100 m-auto">
+
+            <div id="carouselExampleIndicators" class="carousel w-100 slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/logo/Smart_Medic_FacebokTitle.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/logo/Smart_Medic_FacebokTitle.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/logo/Smart_Medic_FacebokTitle.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+       </div>
+
+    </div>
+
+<!--end of carousel slide show -->
+
+<!--MAIN content of the page -->
+    <div class="container">
+
+        <div class="row mb-2 ">
+            <div class="col-md justify-content-center">
+                <h3 class="mb-4 text-align-center"> Na nás sa môžete spoľahnúť !</h3>
+            </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">
+            <div class="col-md-4 justify-content-center">
+                <img id="index-repair" class="d-block" src="img/content/iphone_repair.png" alt="image" >
+            </div>
+            <div class="col-md ">
+                <p class="text-align-left m-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta vulputate erat, vitae cursus libero tincidunt id.
+                    Morbi sit amet ex ante. Ut condimentum augue scelerisque massa ornare rutrum. Suspendisse viverra, lorem nec efficitur faucibus,
+                    urna metus efficitur mi, vitae pharetra nisi nisl elementum felis. Fusce commodo, sem eu congue aliquam, metus urna euismod est,
+                    non vehicula lectus felis a nisi. Praesent pretium sodales neque, id elementum nisi porttitor in. Vivamus sed nisl lobortis,
+                    egestas tortor quis, lobortis mauris.  </p>
+            </div>
+        </div>
+
+
+
+        <div class="row mb-2 ">
+            <div class="col-md justify-content-center">
+                <h3 class="mb-4 text-align-center"> Nechajte servis na profesionálov. </h3>
+            </div>
+        </div>
+        <div class="row align-items-center text-align-center">
+            <div class="col-md">
+            <p> Spĺňame vysoké štanardy spoločnosti <strong>SAMSUNG</strong> , náš tím v roku 2018 získal certifikáciu na opravu zariadení. <br>
+                Zákazníkom teda ponúkame  okrem iného aj prémiový záručný autorizovaný servis zariadení SAMSUNG.
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="col-md-8 ">
+                <img id="samsung-image" class="d-block" src="img/content/samsung-authorized.jpg" alt="Samsung authorized logo">
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+<!--js counter animated-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="counter-box highlited">
+                    <i class="fa fa-thumbs-up"></i>
+                    <span class="counter">2147</span>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="counter-box">
+                    <i class="fa fa-group"></i>
+                    <span class="counter">3275</span>
+                    <p>Registered Members</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="counter-box">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="counter">289</span>
+                    <p>Available Products</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="counter-box">
+                    <i class="fa fa-user"></i>
+                    <span class="counter">1563</span>
+                    <p>Saved Trees</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--end of js counter animated-->
+
+<!--end of MAIN content-->
+
+
+<!--page footer-->
+<footer class="page-footer">
+    <div class="container">
+
+        <div class="row py-3 d-flex align-items-center">
+
+
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                <h5 class="mb-0">Follow us on social networks!</h5>
+            </div>
+            <div class="col-md-6 col-lg-7 text-center text-md-right t">
+
+                <!-- Facebook -->
+                <a>
+                    <i class="fa fa-facebook-square text-white mr-2"> </i>
+                </a>
+                <!-- Twitter -->
+                <a>
+                    <i class="fa fa-twitter-square text-white mr-2"> </i>
+                </a>
+                <!--Instagram-->
+                <a >
+                    <i class="fa fa-instagram text-white mr-2"> </i>
+                </a>
+
+             </div>
+            <!-- Grid column -->
+        </div>
+
+    </div>
+
+    <div class="container-fluid  footer-description">
+        <div class="container">
+            <div class="row pb-0 pt-2 text-align-center text-white  d-flex ">
+                <div class="col-md-4 footer-column"><h5>Autor</h5>
+                    <p>
+                        Ján Kováč <i class="fa fa-copyright"></i><br>
+                    </p>
+                </div>
+                <div class="col-md-4 footer-column"><h5>Kontakt</h5>
+                    <p>
+                    <address>
+                        <a href="mailto:profix@profix.com"> Pro Fix s.r.o. </a> <br>
+                        Daniela Dlabača 24 <br>
+                        010 01 Žilina  Slovensko <br>
+
+                    </address>
+                        <a href="tel:+421902437369">0902 437 369</a>
+
+                </div>
+                <div class="col-md-4 footer-column"><h5>Rýchle odkazy</h5>
+                    <p>Nothing to display here</p>
+                </div>
+            </div>
+         </div>
+    </div>
+</footer>
+<!--end of page footer-->
+
+
+
+<script>
+    $(document).ready(function() {
+
+        $('.counter').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+
+    });
+</script>
+
+
+</body>
+</html>
